@@ -1,13 +1,13 @@
 import yt_dlp
 import os
 
-#cambia LINK DE VIDEO por el link del video ecesario.
+#Poner el link del video en la variable url
 url = 'https://www.youtube.com/watch?v=RiA2pUAJkL8'
 
-#Definir la carpeta  cambia RUTA_DESTINO con la ruta de la carpeta que necesitas.
+#Definir la carpeta donde se guardará los audios
 carpeta_destino = os.path.join(os.path.expanduser('D:/Audios-descargados-yy'), 'Audios')
 
-#Crear la carpeta si no existe
+#Crear la carpeta 'Audios' si no existe
 os.makedirs(carpeta_destino, exist_ok=True)
 
 #Opciones de descarga para obtener solo el audio
