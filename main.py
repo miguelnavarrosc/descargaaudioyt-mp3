@@ -2,10 +2,10 @@ import yt_dlp
 import os
 
 #cambia LINK DE VIDEO por el link del video ecesario.
-url = 'LINK DE VIDEO'
+url = 'https://www.youtube.com/watch?v=RiA2pUAJkL8'
 
 #Definir la carpeta  cambia RUTA_DESTINO con la ruta de la carpeta que necesitas.
-carpeta_destino = os.path.join(os.path.expanduser('D:/App-Mp3-Python'), 'Audios')
+carpeta_destino = os.path.join(os.path.expanduser('D:/Audios-descargados-yy'), 'Audios')
 
 #Crear la carpeta si no existe
 os.makedirs(carpeta_destino, exist_ok=True)
