@@ -2,7 +2,7 @@ import yt_dlp
 import os
 
 #Poner el link del video en la variable url
-url = 'https://www.youtube.com/watch?v=RiA2pUAJkL8'
+url = 'https://www.youtube.com/watch?v=9v6ZLgqCjV0'
 
 #Definir la carpeta donde se guardará los audios
 carpeta_destino = os.path.join(os.path.expanduser('D:/Audios-descargados-yy'), 'Audios')
